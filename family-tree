@@ -1,0 +1,11 @@
+#include <iostream>
+#include <cstring>
+#include <cstdlib>
+
+using namespace std;
+
+struct node
+{
+    char name[50];
+    short int age,x;    //x - height of node
+    bool g;             //g - gender
